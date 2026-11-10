@@ -5,6 +5,7 @@
 1. [Модель, сложность и доказательство](01_foundations.md).
 2. [Кратчайший путь, вес и релаксация](02_shortest_paths.md).
 3. [Монотонный предикат и поиск оптимума](03_monotone_predicates.md).
+4. [Окно, частоты и монотонная граница](04_window_invariants.md).
 
 После первой главы: [BFS](../algorithms/01_bfs.md), [DSU](../algorithms/02_dsu.md) и [офлайн-запросы](../algorithms/03_offline_queries.md).
 
