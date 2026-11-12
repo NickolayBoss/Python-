@@ -7,6 +7,7 @@
 3. [Монотонный предикат и поиск оптимума](03_monotone_predicates.md).
 4. [Окно, частоты и монотонная граница](04_window_invariants.md).
 5. [Префиксные суммы и разность границ](05_prefix_sums.md).
+6. [Суффиксные агрегаты](06_suffix_aggregates.md).
 
 После первой главы: [BFS](../algorithms/01_bfs.md), [DSU](../algorithms/02_dsu.md) и [офлайн-запросы](../algorithms/03_offline_queries.md).
 
