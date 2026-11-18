@@ -1,6 +1,6 @@
 # 010. Сводка по журналу
 
-[Том I](../../volumes/volume_01/README.md) · [Разбор](editorial.md) · [Решение](solution.py)
+[Том I](../../volumes/volume_01/README.md) · [Разбор](editorial.md) · [Решение](solution.py) · [Следующая задача](../p011_name_normalization/README.md)
 
 **Итоговая задача тома I** · Префиксные суммы, бинарный поиск, скользящее окно
 
