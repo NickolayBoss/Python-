@@ -9,6 +9,7 @@
 5. [Префиксные суммы и разность границ](05_prefix_sums.md).
 6. [Суффиксные агрегаты](06_suffix_aggregates.md).
 7. [Корректность нормализации строк](../problems/p011_name_normalization/editorial.md#корректность).
+8. [Каноническая форма и классы эквивалентности](07_canonical_keys.md).
 
 После первой главы: [BFS](../algorithms/01_bfs.md), [DSU](../algorithms/02_dsu.md) и [офлайн-запросы](../algorithms/03_offline_queries.md).
 
