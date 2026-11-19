@@ -10,6 +10,7 @@
 6. [Суффиксные агрегаты](06_suffix_aggregates.md).
 7. [Корректность нормализации строк](../problems/p011_name_normalization/editorial.md#корректность).
 8. [Каноническая форма и классы эквивалентности](07_canonical_keys.md).
+9. [Вложенность и инвариант стека](08_stack_invariant.md).
 
 После первой главы: [BFS](../algorithms/01_bfs.md), [DSU](../algorithms/02_dsu.md) и [офлайн-запросы](../algorithms/03_offline_queries.md).
 

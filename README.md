@@ -10,7 +10,7 @@
 
 [**Том I. Базовые модели и эффективная обработка данных**](volumes/volume_01/README.md) — задачи 001–010, опубликовано **10 из 10**.
 
-[**Том II. Строки и поиск совпадений**](volumes/volume_02/README.md) — задачи 011–020, опубликованы **2 из 10**. [Каталог томов](volumes/README.md).
+[**Том II. Строки и поиск совпадений**](volumes/volume_02/README.md) — задачи 011–020, опубликованы **3 из 10**. [Каталог томов](volumes/README.md).
 
 ## Навигация
 
@@ -43,8 +43,8 @@
 | [009. Активные заявки](problems/p009_active_requests/README.md) | Массив разностей и префиксные суммы | Средний | [Решение](problems/p009_active_requests/solution.py) · [Перебор](problems/p009_active_requests/baseline_bruteforce.py) |
 | [010. Сводка по журналу](problems/p010_log_summary/README.md) | Префиксы, двоичный поиск, скользящее окно | Итоговая | [Решение](problems/p010_log_summary/solution.py) · [Перебор](problems/p010_log_summary/baseline_bruteforce.py) |
 | [011. Нормализация названий](problems/p011_name_normalization/README.md) | Пробельные символы, Unicode, сравнение строк | Базовый | [Решение](problems/p011_name_normalization/solution.py) |
-
 | [012. Анаграммы в каталоге](problems/p012_catalog_anagrams/README.md) | Частоты символов, канонический ключ, группировка | Базовый → средний | [Решение](problems/p012_catalog_anagrams/solution.py) · [Эталон](problems/p012_catalog_anagrams/baseline_sorting.py) |
+| [013. Правильные скобки](problems/p013_correct_brackets/README.md) | Стек, вложенность, первая ошибка | Базовый → средний | [Решение](problems/p013_correct_brackets/solution.py) · [Эталон](problems/p013_correct_brackets/baseline_reduction.py) |
 
 ## Вторая глава: маршрут с минимальной стоимостью
 
@@ -119,6 +119,8 @@ python -m unittest discover -s tests -v
 В пятой главе проверяются все 3280 знаковых массивов длины 0–7 для семи целевых сумм, 1000 случайных случаев и большие входы.
 
 Для задачи 012 проверяются все 2801 каталога длины 0–4 над семью строками, 1000 случайных каталогов, Unicode, порядок групп, ввод и предельные размеры.
+
+Для задачи 013 проверяются все 55 987 строк длины 0–6 над шестью скобками и 1000 случайных строк с независимым эталоном удаления пар; отдельно проверяются входы длины 200 000, приоритет ошибок, CLI и файлы примеров. [Теория стека](theory/08_stack_invariant.md) · [Алгоритм](algorithms/12_bracket_stack.md) · [Python](python/08_list_stack.md).
 
 В задаче 011 тесты проверяют пустые строки, пробельные символы Unicode, преобразования регистра, сохранение знаков препинания и предельную длину названий.
 
